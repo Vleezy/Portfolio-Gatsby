@@ -206,24 +206,29 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Animated Navbar</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+           <p>
+            This is an animated navigation bar.
+          <br/>
+            The source code is in Github and the live demo is in Netlify. 
+           
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+           <ul className="icons">
+            <li>
+              <a href="https://animatednavbars.netlify.app/" className="icon fa-diamond">
+                <span className="label">Live Demo</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Vleezy/animatedNavbar" className="icon fa-github">
+                <span className="label">Github Repository</span>
+              </a>
+            </li>
+          </ul>
           </p>
           {close}
         </article>
@@ -235,24 +240,29 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Pokemon App</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            This is a pokemon application built with reactjs hooks.
+          <br/>
+            The source code is in Github and the live demo is in Netlify. 
+           
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+           <ul className="icons">
+            <li>
+              <a href="https://pokemonapps.netlify.app/" className="icon fa-diamond">
+                <span className="label">Live Demo</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Vleezy/Pokemon-App" className="icon fa-github">
+                <span className="label">Github Repository</span>
+              </a>
+            </li>
+          </ul>
           </p>
           {close}
         </article>
@@ -264,24 +274,29 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Weather App</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            My weather App will go here TBD.
+          <br/>
+            The source code is in Github and the live demo is in Netlify. 
+           
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+           <ul className="icons">
+            <li>
+              <a href="/" className="icon fa-diamond">
+                <span className="label">Live Demo</span>
+              </a>
+            </li>
+            <li>
+              <a href="/" className="icon fa-github">
+                <span className="label">Github Repository</span>
+              </a>
+            </li>
+          </ul>
           </p>
           {close}
         </article>
@@ -293,24 +308,29 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Github Page Locator</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            This is a github page locator application.
+          <br/>
+            The source code is in Github and the live demo is in Netlify. 
+           
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+           <ul className="icons">
+            <li>
+              <a href="https://github-locator.netlify.app/" className="icon fa-diamond">
+                <span className="label">Live Demo</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Vleezy/react-github-cards" className="icon fa-github">
+                <span className="label">Github Repository</span>
+              </a>
+            </li>
+          </ul>
           </p>
           {close}
         </article>
@@ -322,7 +342,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Projects</h2>
+          <h2 className="major">To-Do</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
