@@ -529,7 +529,6 @@ class Main extends React.Component {
             I will be uploading projects from my Github Repository as well as netlifying them to create a live demo for anyone to play with.
             all my code will be open source for anyone to practice and learn on.
             <br/> <br/>
-            I used GatsbyJs to create this portfolio.
             
           </p>
           {close}
