@@ -66,7 +66,7 @@ class Main extends React.Component {
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}>
-          <h2 className="major">Gateway Project</h2>
+          <h2 className="major">Gateway Project v1.0</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -80,7 +80,7 @@ class Main extends React.Component {
           <p>
            <ul className="icons">
             <li>
-              <a href="https://codepen.io/VladRomero/project/full/ZokOjQ" className="icon fa-diamond">
+              <a href="https://codepen.io/VladRomero/project/full/ZokOjQ" className="icon fa-gamepad">
                 <span className="label">Live Demo</span>
               </a>
             </li>
@@ -100,7 +100,7 @@ class Main extends React.Component {
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}>
-          <h2 className="major">Gateway Revision v2</h2>
+          <h2 className="major">Gateway Revision v2.0</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -114,7 +114,7 @@ class Main extends React.Component {
           <p>
            <ul className="icons">
             <li>
-              <a href="https://gatewaysingapore.netlify.app/" className="icon fa-diamond">
+              <a href="https://gatewaysingapore.netlify.app/" className="icon fa-gamepad">
                 <span className="label">Live Demo</span>
               </a>
             </li>
@@ -147,7 +147,7 @@ class Main extends React.Component {
           <p>
            <ul className="icons">
             <li>
-              <a href="https://hotelsite.netlify.app/" className="icon fa-diamond">
+              <a href="https://hotelsite.netlify.app/" className="icon fa-gamepad">
                 <span className="label">Live Demo</span>
               </a>
             </li>
@@ -182,7 +182,7 @@ class Main extends React.Component {
           <p>
            <ul className="icons">
             <li>
-              <a href="https://speechrecognitions.netlify.app/" className="icon fa-diamond">
+              <a href="https://speechrecognitions.netlify.app/" className="icon fa-gamepad">
                 <span className="label">Live Demo</span>
               </a>
             </li>
@@ -215,7 +215,7 @@ class Main extends React.Component {
           <p>
            <ul className="icons">
             <li>
-              <a href="https://animatednavbars.netlify.app/" className="icon fa-diamond">
+              <a href="https://animatednavbars.netlify.app/" className="icon fa-gamepad">
                 <span className="label">Live Demo</span>
               </a>
             </li>
@@ -248,7 +248,7 @@ class Main extends React.Component {
           <p>
            <ul className="icons">
             <li>
-              <a href="https://pokemonapps.netlify.app/" className="icon fa-diamond">
+              <a href="https://pokemonapps.netlify.app/" className="icon fa-gamepad">
                 <span className="label">Live Demo</span>
               </a>
             </li>
@@ -281,7 +281,7 @@ class Main extends React.Component {
           <p>
            <ul className="icons">
             <li>
-              <a href="/" className="icon fa-diamond">
+              <a href="/" className="icon fa-gamepad">
                 <span className="label">Live Demo</span>
               </a>
             </li>
@@ -314,7 +314,7 @@ class Main extends React.Component {
           <p>
            <ul className="icons">
             <li>
-              <a href="https://github-locator.netlify.app/" className="icon fa-diamond">
+              <a href="https://github-locator.netlify.app/" className="icon fa-gamepad">
                 <span className="label">Live Demo</span>
               </a>
             </li>
@@ -347,7 +347,7 @@ class Main extends React.Component {
           <p>
            <ul className="icons">
             <li>
-              <a href="https://todolistsapp.netlify.app/" className="icon fa-diamond">
+              <a href="https://todolistsapp.netlify.app/" className="icon fa-gamepad">
                 <span className="label">Live Demo</span>
               </a>
             </li>
@@ -381,7 +381,7 @@ class Main extends React.Component {
           <p>
            <ul className="icons">
             <li>
-              <a href="https://tictactoegameapps.netlify.app/" className="icon fa-diamond">
+              <a href="https://tictactoegameapps.netlify.app/" className="icon fa-gamepad">
                 <span className="label">Live Demo</span>
               </a>
             </li>
@@ -394,6 +394,108 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
+
+{/* ELEVENTH */}
+        <article
+          id="work"
+          className={`${this.props.article === 'work' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}>
+          <h2 className="major">E-Commerce Static </h2>
+          <span className="image main">
+            <img src={pic02} alt="" />
+          </span>
+          <p>
+             This is my first iteration of my e-commerce webpage. It is static.
+          <br/>
+            The source code is in Github and the live demo is in 000Webhost. 
+           
+          </p>
+          <p>
+           <ul className="icons">
+            <li>
+              <a href="http://code-test.site" className="icon fa-gamepad">
+                <span className="label">Live Demo</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Code-7-Classroom/weeklychallenges2020-Vleezy/tree/master/eCommerce" className="icon fa-github">
+                <span className="label">Github Repository</span>
+              </a>
+            </li>
+          </ul>
+          </p>
+          {close}
+        </article>
+
+{/* TWELFTH */}
+        <article
+          id="work"
+          className={`${this.props.article === 'work' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}>
+          <h2 className="major">E-Commerce v1.5</h2>
+          <span className="image main">
+            <img src={pic02} alt="" />
+          </span>
+          <p>
+             This is my second iteration of an e-commerce website in ReactJS that I am currently working on.
+
+             <br/>
+             Currently it is only the products page.
+          <br/>
+            The source code is in Github and the live demo is in Netlify. 
+           
+          </p>
+          <p>
+           <ul className="icons">
+            <li>
+              <a href="https://ecommerce-vlad.netlify.app/" className="icon fa-gamepad">
+                <span className="label">Live Demo</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Vleezy/react-ecommerce" className="icon fa-github">
+                <span className="label">Github Repository</span>
+              </a>
+            </li>
+          </ul>
+          </p>
+          {close}
+        </article>
+
+{/* THIRTEENTH */}
+        <article
+          id="work"
+          className={`${this.props.article === 'work' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}>
+          <h2 className="major">Tic-Tac-Toe </h2>
+          <span className="image main">
+            <img src={pic02} alt="" />
+          </span>
+          <p>
+             This is a current project I am working on for learning purposes. Based on habbo platform and development.
+             <br/>
+             Used multiple languages..
+          <br/>
+            The link to the live beta stage is below. I will not be providing the code. 
+          </p>
+          <p>
+           <ul className="icons">
+            <li>
+              <a href="http://habfriend.com/" className="icon fa-gamepad">
+                <span className="label">Live Demo</span>
+              </a>
+            </li>
+          </ul>
+          </p>
+          {close}
+        </article>
+
 
 
 
@@ -456,23 +558,18 @@ class Main extends React.Component {
 {/* SOCIAL MEDIA LINKS */}
           <ul className="icons">
             <li>
-              <a href="https://twitter.com/" className="icon fa-twitter">
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://facebook.com/" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://instagram.com/" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
               <a href="https://github.com/Vleezy" className="icon fa-github">
                 <span className="label">GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/vladromero/" className="icon fa-linkedin">
+                <span className="label">Linkedin</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://codepen.io/VladRomero/" className="icon fa-codepen">
+                <span className="label">Linkedin</span>
               </a>
             </li>
           </ul>
