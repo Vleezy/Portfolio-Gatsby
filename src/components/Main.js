@@ -473,14 +473,24 @@ class Main extends React.Component {
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}>
-          <h2 className="major">Tic-Tac-Toe </h2>
+          <h2 className="major">Habfriend </h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
              This is a current project I am working on for learning purposes. Based on habbo platform and development.
              <br/>
-             Used multiple languages..
+             I created a project that I am hosting on a VPS with my personal Domain.
+             {/* <br/>
+             Tools:
+             <ul>
+             <li>HTML</li>
+             <li>CSS</li>
+             <li>PHP</li>
+             <li>JS</li>
+             <li>MySQL</li>
+             <li>Flash</li>
+             <li>VPS</li> */}
           <br/>
             The link to the live beta stage is below. I will not be providing the code. 
           </p>
