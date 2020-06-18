@@ -13,7 +13,7 @@ const Header = props => (
           Technology Fellow{' '}
           <a href="http://roadtohire.org" alt="RoadToHire">R2H</a> 
           <br />
-          Hello and welcome to my online portfolio{' '}
+          Welcome to my online portfolio{' '}
           {/* <a href="https://html5up.net/license">Creative Commons</a> license. */}
         </p>
       </div>
