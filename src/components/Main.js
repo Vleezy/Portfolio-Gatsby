@@ -301,7 +301,7 @@ class Main extends React.Component {
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}>
-          <h2 className="major">Github Page Locator</h2>
+          <h2 className="major">Github Locator APP</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -334,7 +334,7 @@ class Main extends React.Component {
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}>
-          <h2 className="major">To-Do</h2>
+          <h2 className="major">To-Do APP</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -402,7 +402,7 @@ class Main extends React.Component {
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}>
-          <h2 className="major">E-Commerce Static </h2>
+          <h2 className="major">E-Commerce V1.0 (STATIC)</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -436,7 +436,7 @@ class Main extends React.Component {
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}>
-          <h2 className="major">E-Commerce v1.5</h2>
+          <h2 className="major">E-Commerce v2.0 (REACT)</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -478,7 +478,9 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-             This is a current project I am working on for learning purposes. Based on habbo platform and development.
+             This is a current project I am working on for learning purposes. 
+             <br/>
+             Based on habbo platform and development.
              <br/>
              I created a project that I am hosting on a VPS with my personal Domain.
              {/* <br/>
