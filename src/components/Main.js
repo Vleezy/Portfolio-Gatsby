@@ -28,29 +28,18 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Vladimir Romero</h2>
           <span className="image main">
-            <img src={''} alt="Image" />
+            <img class="vlad" src={'https://cdn1.iconfinder.com/data/icons/finance-1-3/128/4-512.png'} alt="Author"/>
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+           Motivated individual with experience in technology and construction. 
+           Currently in a Fellowship with Road To Hire, which is a rigorous fast-paced environment for professional and technological training. 
+           Experiences with technologies such as HTML, CSS, React.js, Node.js, JavaScript, MySQL, Git, Github, Jest.
+            {/* <a href="#work"> Projects</a>. */}
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            Dedicated individual with technical skills seeking to fill the gaps in my knowledge to further enhance front and back-end web development to succeed in the workplace environment.
           </p>
           {close}
 
@@ -64,7 +53,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Project</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -93,7 +82,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Project</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -122,7 +111,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">NAME</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -296,7 +285,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Projects</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -373,6 +362,8 @@ class Main extends React.Component {
               </li>
             </ul>
           </form>
+
+          {/* SOCIAL MEDIA LINKS */}
           <ul className="icons">
             <li>
               <a

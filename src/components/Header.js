@@ -18,6 +18,8 @@ const Header = props => (
         </p>
       </div>
     </div>
+
+    {/* NAVBAR */}
     <nav>
       <ul>
         <li>
