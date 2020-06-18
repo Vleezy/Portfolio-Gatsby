@@ -202,7 +202,7 @@ class Main extends React.Component {
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}>
-          <h2 className="major">Animated Navbar</h2>
+          <h2 className="major">Navigation Bar</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
