@@ -30,7 +30,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={'https://media-exp1.licdn.com/dms/image/C4E03AQG2wN_M0Xya_w/profile-displayphoto-shrink_400_400/0?e=1597881600&v=beta&t=vminEIUwc1TLURwCE1GylosH7xlmcXBz1A4Ad_EiJo4'} alt="Image" />
+            <img src={''} alt="Image" />
           </span>
           <p>
             Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
