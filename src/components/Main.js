@@ -6,6 +6,7 @@ import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
   render() {
+    // LETS YOU CLOSE THE PAGES
     let close = (
       <div
         className="close"
@@ -19,15 +20,15 @@ class Main extends React.Component {
       <div
         ref={this.props.setWrapperRef}
         id="main"
-        style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
-      >
+        style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}>
+        
+{/* INTRODUCTION PAGE */}
         <article
           id="intro"
           className={`${this.props.article === 'intro' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
-        >
+          style={{ display: 'none' }}>
           <h2 className="major">Vladimir Romero</h2>
           <span className="image main">
             <img class="vlad" src={'https://cdn1.iconfinder.com/data/icons/finance-1-3/128/4-512.png'} alt="Author"/>
@@ -56,7 +57,7 @@ class Main extends React.Component {
           
           {close}
 
-
+{/* PROJECTS PAGE */}
         </article>
 {/* FIRST */} <br/><br/>
         <article
@@ -64,8 +65,7 @@ class Main extends React.Component {
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
-        >
+          style={{ display: 'none' }}>
           <h2 className="major">Gateway Project</h2>
           <span className="image main">
             <img src={pic02} alt="" />
@@ -99,8 +99,7 @@ class Main extends React.Component {
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
-        >
+          style={{ display: 'none' }}>
           <h2 className="major">Gateway Revision v2</h2>
           <span className="image main">
             <img src={pic02} alt="" />
@@ -134,8 +133,7 @@ class Main extends React.Component {
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
-        >
+          style={{ display: 'none' }}>
           <h2 className="major">Hotel App</h2>
           <span className="image main">
             <img src={pic02} alt="" />
@@ -168,8 +166,7 @@ class Main extends React.Component {
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
-        >
+          style={{ display: 'none' }}>
           <h2 className="major">Speech Recognition</h2>
           <span className="image main">
             <img src={pic02} alt="" />
@@ -204,8 +201,7 @@ class Main extends React.Component {
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
-        >
+          style={{ display: 'none' }}>
           <h2 className="major">Animated Navbar</h2>
           <span className="image main">
             <img src={pic02} alt="" />
@@ -238,8 +234,7 @@ class Main extends React.Component {
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
-        >
+          style={{ display: 'none' }}>
           <h2 className="major">Pokemon App</h2>
           <span className="image main">
             <img src={pic02} alt="" />
@@ -272,8 +267,7 @@ class Main extends React.Component {
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
-        >
+          style={{ display: 'none' }}>
           <h2 className="major">Weather App</h2>
           <span className="image main">
             <img src={pic02} alt="" />
@@ -306,8 +300,7 @@ class Main extends React.Component {
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
-        >
+          style={{ display: 'none' }}>
           <h2 className="major">Github Page Locator</h2>
           <span className="image main">
             <img src={pic02} alt="" />
@@ -340,38 +333,77 @@ class Main extends React.Component {
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
-        >
+          style={{ display: 'none' }}>
           <h2 className="major">To-Do</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            This is a To-Do List application that will create a list for you as you input the information.
+          <br/>
+            The source code is in Github and the live demo is in Netlify. 
+           
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+           <ul className="icons">
+            <li>
+              <a href="https://todolistsapp.netlify.app/" className="icon fa-diamond">
+                <span className="label">Live Demo</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Vleezy/TodoList-App" className="icon fa-github">
+                <span className="label">Github Repository</span>
+              </a>
+            </li>
+          </ul>
+          </p>
+          {close}
+        </article>
+
+{/* TENTH */}
+        <article
+          id="work"
+          className={`${this.props.article === 'work' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}>
+          <h2 className="major">Tic-Tac-Toe </h2>
+          <span className="image main">
+            <img src={pic02} alt="" />
+          </span>
+          <p>
+             This is a tic-tac-toe game application for you to enjoy playing with a friend.
+          <br/>
+            The source code is in Github and the live demo is in Netlify. 
+           
+          </p>
+          <p>
+           <ul className="icons">
+            <li>
+              <a href="https://tictactoegameapps.netlify.app/" className="icon fa-diamond">
+                <span className="label">Live Demo</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Vleezy/Tictactoe-App" className="icon fa-github">
+                <span className="label">Github Repository</span>
+              </a>
+            </li>
+          </ul>
           </p>
           {close}
         </article>
 
 
+
+{/* ABOUT PAGE */}
         <article
           id="about"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
-        >
+          style={{ display: 'none' }}>
           <h2 className="major">About</h2>
           <span className="image main">
             <img src={'https://github.com/Vleezy/Portfolio/blob/master/logo.png?raw=true'} alt="Logo" />
@@ -390,14 +422,13 @@ class Main extends React.Component {
         </article>
 
 
-
+{/* CONTACT PAGE */}
         <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
-        >
+          style={{ display: 'none' }}>
           <h2 className="major">Contact</h2>
           <form method="post" action="#">
             <div className="field half first">
@@ -422,7 +453,7 @@ class Main extends React.Component {
             </ul>
           </form>
 
-          {/* SOCIAL MEDIA LINKS */}
+{/* SOCIAL MEDIA LINKS */}
           <ul className="icons">
             <li>
               <a href="https://twitter.com/" className="icon fa-twitter">
