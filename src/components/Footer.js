@@ -13,5 +13,3 @@ Footer.propTypes = {
 
 export default Footer
 
-
-{/* <a href="https://html5up.net"></a> */}
